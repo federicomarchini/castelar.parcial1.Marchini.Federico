@@ -33,7 +33,8 @@ textarea {
 header {
     display: block;
     background-color: #286af0;
-    padding: 5px 0px;
+    padding: 10px 0px;
+    font-size: xx-large;
 }
 
 section {
@@ -44,13 +45,30 @@ section {
 
 aside {
     float: left;
-    width: 19%;
-    background-color:aquamarine;
+    width: 25%;
+    height: 50%;
+    background-color: white;
 }
+
 
 
 footer {
     position: relative;
     clear: both;
     background-color: #286af0;
+    text-align: center;
+    color: white;
+}
+
+#imagen {
+    line-height: normal;
+    font-size: 11px;
+    display: table-caption;
+    text-align: center;
+    position: center;
+    float: right;
+}
+
+#texto {
+    float: right;
 }
